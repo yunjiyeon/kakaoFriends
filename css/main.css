@@ -74,14 +74,17 @@ h1 a span { display: none;}
     top: 6px;
 }
 .top_left { left: 12px; }
-.top_left > button { padding: 5px; }
+.top_left > button { 
+    padding: 5px;
+    position: relative;
+}
 .top_left .ico_dot {
     position: absolute;
     top: 5px;
-    right: 1px;
+    right: 3px;
 }
 .top_right { right: 12px;}
-.top_right > button { padding: 5px; }
+.top_right > button { padding: 5px;}
 
 .top_right .ico_search, .top_right .ico_global { 
     width: 24px;
@@ -151,7 +154,7 @@ article .box { padding: 20px; }
 .article_header .info strong {
     display: block;
     line-height: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .article_header .info span.txt_time {
     font-size: 13px;
