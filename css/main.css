@@ -51,6 +51,8 @@ h1 {
     height: 46px;
     line-height: 46px;
     padding: 0 80px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 h1 a {
     display: block; /* block 으로 하면 text-align:center 가 안 먹음 block 은 한줄을 꽉 채우고 있기 때문에 inline-block 을 줘야 함*/
@@ -148,7 +150,8 @@ article .box { padding: 20px; }
 .article_header .info { padding-left: 50px; }
 .article_header .info strong {
     display: block;
-    line-height: 20px;
+    line-height: 15px;
+    padding-top: 5px;
 }
 .article_header .info span.txt_time {
     font-size: 13px;
