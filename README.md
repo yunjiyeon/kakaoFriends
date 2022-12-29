@@ -1,10 +1,8 @@
 # MINI PROJECT | KAKAO Friends
 > 카카오 프렌즈 클론 코딩 < 메인, 메뉴, 팝업 >
-
-<br>
+ 
 * 기여도 : 개인 100% <br> 
 * 기간 : 2022.10
-<br>
 
 ## 📍 Overview
 
